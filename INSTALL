@@ -1,0 +1,21 @@
+Clone repository:
+
+$ git clone https://www.github.com/randolf/simple-viewer-gl.git
+$ cd simple-viewer-gl
+
+Build under Linux and macOS:
+
+$ make release
+$ sudo make install
+
+Optional copy executable in to /usr/bin:
+
+$ cp sviewgl /usr/bin
+
+Or symlink it:
+
+$ ln -s sviewgl /usr/bin/sviewgl
+
+Example of config in config.example file.
+Copy it to $XDG_CONFIG_HOME/sviewgl/config
+If $XDG_CONFIG_HOME is not set $HOME/.config/sviewgl/config will be used.

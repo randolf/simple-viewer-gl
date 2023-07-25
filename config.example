@@ -1,0 +1,80 @@
+; Example Configuration File of SimpleViewer GL
+;
+; Linux:
+; Copy it to $XDG_CONFIG_HOME/sviewgl/config
+; If $XDG_CONFIG_HOME is not set $HOME/.config/sviewgl/config will be used
+;
+; Mac OS X:
+; Copy it to ~/Library/Application Support/sviewgl/config
+;
+
+; true values are: true, enable, 1
+; all other treats as false
+
+[common]
+
+; show or hide bottom infobar (default: false)
+;hide_infobar = false
+
+; show or hide pixel info (default: false)
+;show_pixelinfo = false
+
+; show or hide Exif info (default: false)
+;show_exif = false
+
+; background index (default: 0)
+; 0 - checkerboard
+; 1 - user defined color
+; 2 - red
+; 3 - green
+; 4 - blue
+;background_index = 0
+
+; color of user defined background (background_index = 1)
+;background_r = 90
+;background_g = 90
+;background_b = 90
+
+; fit lage image in to window preserving aspect ration (default: false)
+;fit_image = false
+
+; start viewer in fullscreen mode on startup (default: false)
+;full_screen = false
+
+; show or hide border around of image (default: false)
+;show_image_border = false
+
+; lookup for images in subfolder recursively on startup (default: false)
+;lookup_recursive = false
+
+; enable zoom by mouse wheel (default: true)
+;wheel_zoom = true
+
+; minimum texture size to create mipmap levels (default: 4096)
+;mipmap_texture_size = 4096
+
+; set maximum file name length in infobar (default: 100)
+;file_max_length = 100
+
+; background cell size (power of two, default: 16)
+;background_cell_size = 16
+
+; font ratio (default 0.5)
+;font_ratio = 0.5
+
+; shift image step in pixels / percents (default: 10 / 50%)
+;shift_in_pixels = 10.0
+;shift_in_percent = 0.5
+
+; minimal SVG image dimension (default: 256)
+;minSvgSize = 256.0
+
+[position]
+
+; desired window position (default: last position)
+;window_x
+;window_y
+
+; desired window size (default: last size)
+;window_w
+;window_h
